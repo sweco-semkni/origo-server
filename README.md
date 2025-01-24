@@ -39,6 +39,12 @@ To uninstall run the following command:
 
 node uninstall_windowsservice.js
 
+### Create a Docker image with Origo server
+
+You can create a Docker image with origo server in it. Run the following command from the origo-server directory to do so:
+
+docker build -t origo-server .
+
 ### Current services provided
 
 Basic configuration needed in conf/config.js and/or conf/dbconfig.js. More information about configuration can be found in the [CONFIG.md](https://github.com/origo-map/origo-server/blob/master/CONFIG.md) file.
